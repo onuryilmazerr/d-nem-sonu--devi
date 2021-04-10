@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration:  none;
+  color: #fff;
+}
+html{
+  font-family: "Lato",sans-serif;
+}
+#navbar{
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.50rem;
+  height: 60px;
+
+}
+#navbar ul{
+list-style-type: none;
+display: flex;
+align-items: center;
+}
+
+#navbar ul li a {
+  padding: 1.25rem;
+}
+
+#navbar ul li a:hover {
+  background: cornsilk;
+  border-radius: 6px;
+}
