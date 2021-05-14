@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+a{
+  text-decoration:  none;
+  color: #fff;
+}
+html{
+  font-family: "Lato",sans-serif;
+}
+
+nav{
+background: #c3defb;
+padding: 10px 40px 10px 70px;
+border:1px solid #c3defb;
+border-left:none;
+border-right:none;
+}
+nav ul{
+
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#navbar ul li a {
+  padding: 1.25rem;
+}
+#navbar ul li a:hover {
+  background: #FEDBB5;
+  border-radius: 20px;
+}
+nav ul li.logo{
+  flex: 1;
+  font-size: 30px;
+  font-weight: 700;
+  color:#fffdfd;
+}
+nav ul div.items{
+  display:inline-flex;
+  padding: 0 25px;
+
+}
+nav ul div.items a{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 12px ;
+}
+
+nav ul .search-icon{
+height: 40px;
+width: 240px;
+display: flex;
+background: #f2f2f2;
+border-radius: 5px;
+}
+nav ul .search-icon input{
+height: 100%;
+width: 200px;
+border:none;
+border-radius: 5px 0 0 5px;
+outline:none;
+padding: 0 10px ;
+color: #000;
+font-size: 16px;
+}
+nav ul .search-icon .icon{
+  height: 100%;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #c2c1c1;
+  cursor: pointer;
+}
+nav ul .search-icon .icon:hover{
+  background: #e9e7e7;
+}
+nav ul .search-icon .icon span{
+  color: #222;
+  font-size: 18px;
+}
+
+footer{
+position: fixed;
+bottom: 0px;
+width: 100%;
+opacity:1;
+filter:alpha(opacity=100);
+color: white ;
+
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #FFC28F;
+}
