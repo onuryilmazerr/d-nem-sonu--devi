@@ -1,0 +1,47 @@
+main{
+
+  width: 81%;
+  padding:8px;
+  position: relative;
+  margin:auto;
+  left: 7%;
+
+}
+.icerik{
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  margin-right: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+}
+.resim{
+  width: 100%;
+  border-radius: 10px;
+}
+
+h5{
+  font-size: 20px;
+text-align: center;
+  margin:20px;
+  color: white;
+
+}
+.icerikText{
+  font-size: 18px;
+  margin:20px;
+  color: white;
+
+}
+.devambuton:link{
+  display: block;
+  width: 100px;
+  height: 50px;
+  padding:5px 15px;
+  background-color: #FFC28F;
+  color:white;
+  text-decoration: none;
+  margin: 12px;
+  border-radius: 20px;
+}

@@ -1,0 +1,55 @@
+.clock{
+  color :#ffffff;
+  font-size: 200px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 10px;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%) translateY(-50%);
+}
+h1{
+  font-size: 20px;
+color: white;
+text-align: center;
+}
+h3{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.container{
+
+  background: none;
+  height:auto;
+  width:auto;
+  padding: 0.5em;
+  display: flex;
+  margin-top: 15%;
+  justify-content:center;
+  flex-direction: row;
+}
+
+.item{
+  background: none;
+  margin: 0.5em;
+  justify-content:center;
+}
+.gün{
+  float: right;
+  width:30%;
+  margin-top: 11%;
+}
+.sidney{
+  flex: none;
+}
+.ingiltere{
+ flex: none;
+}
+.usa{
+  flex: none;
+}
+
